@@ -1,0 +1,3 @@
+rm -rf /var/www/html/blog
+hugo -d /var/www/html/blog
+tree /var/www/html/blog

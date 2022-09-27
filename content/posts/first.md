@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "First"
+date: 2022-09-27T14:52:35+08:00
 weight: 1
 tags: ["iidx"]
 author: "阿猫"

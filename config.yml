@@ -1,19 +1,42 @@
-baseURL: https://ragnarokcn.com/blog
-languageCode: zh-cn
+baseURL: https://ragnarokcn.com/blog/
+languageCode: zh
 title: 阿猫的博客
 theme: "pm6"
 paginate: 5
+copyright: "InvidentXp - 阿猫"
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+hasCJKLanguage: true
 
 #googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
-  minifyOutput: true
+  #minifyOutput: true
+
+menu:
+  main:
+    - name: 归档
+      url: archives
+      weight: 5
+    - name: 标签
+      url: tags/
+      weight: 10
+    - name: 搜索
+      url: search/
+      weight: 20
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
 
 params:
   env: production
@@ -21,7 +44,7 @@ params:
   description: "喜欢打音乐游戏,顺便写写代码"
   keywords: [阿猫, IIDX, Go, InvXp]
   author: 阿猫
-  images: ["profile.jpg"]
+  images: ["/blog/profile.jpg"]
   DateFormat: "2006, January 2"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -30,7 +53,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -43,18 +66,18 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    #favicon: "<link / abs url>"
+    #favicon16x16: "<link / abs url>"
+    #favicon32x32: "<link / abs url>"
+    #apple_touch_icon: "<link / abs url>"
+    #safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "首页"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: /blog/profile.jpg
+    iconHeight: 30
 
   # profile-mode
   profileMode:
@@ -74,7 +97,8 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "嘿!"
-    Content: 欢迎来到阿猫的博客
+    Content: > 
+        欢迎来到阿猫的博客
 
   socialIcons:
     - name: github
@@ -88,10 +112,10 @@ params:
   #  yandex:
   #    SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  #cover:
+  #  hidden: true # hide everywhere but not in structured data
+  #  hiddenInList: true # hide on list pages and home
+  #  hiddenInSingle: true # hide on single page
 
   editPost:
     URL: "https://github.com/invxp/blog/content"
@@ -107,19 +131,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["标题", "链接", "类型", "内容"]
-menu:
-  main:
-    - identifier: categories
-      name: 类型
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: 标签
-      url: /tags/
-      weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+    keys: ["title", "permalink", "summary", "content"]
 markup:
   highlight:
     noClasses: false

@@ -5,16 +5,14 @@ weight: 1
 tags: ["iidx"]
 author: "阿猫"
 showToc: true
-TocOpen: false
+TocOpen: true
 draft: false
-hidemeta: false
+hidemeta: true
 comments: true
 description: "练手怪"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
+disableShare: true
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -32,4 +30,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
+- LianShouGuai
+- GiaoRen
+- 哈哈

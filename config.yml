@@ -2,8 +2,8 @@ baseURL: https://ragnarokcn.com/blog/
 languageCode: zh
 title: 阿猫的博客
 theme: "pm6"
-paginate: 5
-copyright: "InvidentXp - 阿猫"
+paginate: 10
+copyright: "https://www.RagnarokCN.com/blog - 阿猫😼"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -13,6 +13,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 hasCJKLanguage: true
+disqusShortname: invxp
 
 #googleAnalytics: UA-123-45
 
@@ -45,85 +46,60 @@ params:
   keywords: [阿猫, IIDX, Go, InvXp]
   author: 阿猫
   images: ["/blog/profile.jpg"]
-  DateFormat: "2006, January 2"
+  DateFormat: "2006年01月02日"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  comments: true
+   
   ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
-    disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    #favicon: "<link / abs url>"
-    #favicon16x16: "<link / abs url>"
-    #favicon32x32: "<link / abs url>"
-    #apple_touch_icon: "<link / abs url>"
-    #safari_pinned_tab: "<link / abs url>"
+    favicon: "/blog/blog.ico"
+    favicon16x16: "/blog/blog.ico"
+    favicon32x32: "/blog/blog.ico"
 
   label:
     text: "首页"
     icon: /blog/profile.jpg
     iconHeight: 30
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
   homeInfoParams:
-    Title: "嘿!"
-    Content: > 
-        欢迎来到阿猫的博客
+    Title: "嘿!😝"
+    Content: >
+      欢迎来到阿猫😼的博客.
+
+      - 我喜欢**打游戏**和**写代码**.
+
+      - 始终认为写代码❤️是件**快乐并可以持续一生的事**.
+
+      - 快来跟我[一起写Bug](https://github.com/invxp).
+
 
   socialIcons:
-    - name: github
+    - name: "github"
       url: "https://github.com/invxp"
-
-  #analytics:
-  #  google:
-  #    SiteVerificationTag: "XYZabc"
-  #  bing:
-  #    SiteVerificationTag: "XYZabc"
-  #  yandex:
-  #    SiteVerificationTag: "XYZabc"
-
-  #cover:
-  #  hidden: true # hide everywhere but not in structured data
-  #  hiddenInList: true # hide on list pages and home
-  #  hiddenInSingle: true # hide on single page
-
+    - name: "youtube"
+      url: "https://live.bilibili.com/10622"
+    - name: "steam"
+      url: "https://steamcommunity.com/id/invxp/"
+    - name: "email"
+      url: "mailto:23691151@qq.com"
+    
   editPost:
     URL: "https://github.com/invxp/blog/content"
-    Text: "Suggest Changes" # edit text
+    Text: "编辑" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -132,11 +108,12 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai

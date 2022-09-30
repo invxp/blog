@@ -47,7 +47,7 @@ params:
   author: 阿猫
   images: ["/blog/profile.jpg"]
   DateFormat: "2006年01月02日"
-  defaultTheme: auto # dark, light
+  defaultTheme: light # dark, light
   disableThemeToggle: false
   comments: true
    
@@ -73,6 +73,14 @@ params:
     icon: /blog/profile.jpg
     iconHeight: 30
 
+  valine:
+    enable: true
+    avatar: "wavatar"
+    placeholder: "说点什么吧..."
+    meta: ["nick"]
+    visitor: true
+    requiredFields: ["nick"]
+
   homeInfoParams:
     Title: "嘿!😝"
     Content: >
@@ -95,10 +103,10 @@ params:
     - name: "email"
       url: "mailto:23691151@qq.com"
     
-  editPost:
-    URL: "https://github.com/invxp/blog/content"
-    Text: "编辑" # edit text
-    appendFilePath: true # to append file path to Edit link
+  #editPost:
+  #  URL: "https://github.com/invxp/blog/content"
+  #  Text: "编辑" # edit text
+  #  appendFilePath: true # to append file path to Edit link
 
   fuseOpts:
     isCaseSensitive: false

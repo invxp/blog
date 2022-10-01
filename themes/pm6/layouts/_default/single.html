@@ -7,10 +7,13 @@
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
-    <span class="leancloud_visitors">
-    <em class="post-meta-item-text">当前文章阅读量:</em>
-    <i class="leancloud-visitors-count">0</i>
-</span>
+    
+    <span id="{{ .RelPermalink | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+		<span class="post-meta-item-text">文章阅读量 </span>
+		<span class="leancloud-visitors-count">0</span>
+		<p></p>
+    </span>
+
     {{- if .Description }}
     <div class="post-description">
       {{ .Description }}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 阿猫的博客</title>
+    <link>https://ragnarokcn.com/blog/tags/</link>
+    <description>Recent content in Tags on 阿猫的博客</description>
+    <image>
+      <url>https://ragnarokcn.com/blog/profile.jpg</url>
+      <link>https://ragnarokcn.com/blog/profile.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>https://www.RagnarokCN.com/blog - 阿猫😼</copyright>
+    <lastBuildDate>Wed, 28 Sep 2022 16:55:49 +0800</lastBuildDate><atom:link href="https://ragnarokcn.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iidx</title>
+      <link>https://ragnarokcn.com/blog/tags/iidx/</link>
+      <pubDate>Wed, 28 Sep 2022 16:55:49 +0800</pubDate>
+      
+      <guid>https://ragnarokcn.com/blog/tags/iidx/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

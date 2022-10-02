@@ -1,8 +1,8 @@
 ---
-title: "[beatmaniaIIDX SP攻略]1.基本框架及概念"
-date: 2022-09-28T16:55:47+08:00
+title: "Iidx_other"
+date: 2022-10-03T02:59:26+08:00
 
-tags: ["iidx"]
+tags: [""]
 
 author: "阿猫"
 showToc: true
@@ -22,8 +22,11 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 
 cover:
-    image: "/blog/bemani.jpg"
-    alt: ""
-    caption: "练手"
+    image: "<image path/url>"
+    alt: "<alt text>"
+    caption: "<text>"
 ---
-1. 我们一起来练手!
+##闲聊
+
+##参考文章
+* [提升判定](https://the-safari.com/2279)

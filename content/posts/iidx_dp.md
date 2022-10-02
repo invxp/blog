@@ -1,8 +1,8 @@
 ---
-title: "2"
-date: 2022-09-28T16:55:49+08:00
+title: "Iidx_dp"
+date: 2022-10-03T04:08:28+08:00
 
-tags: ["go"]
+tags: [""]
 
 author: "阿猫"
 showToc: true
@@ -26,4 +26,8 @@ cover:
     alt: "<alt text>"
     caption: "<text>"
 ---
-这是一篇技术文章，内容也在编辑中
+##DP老有意思了
+
+##参考文章
+* [从入门到十段](https://silent.hatenadiary.com/entry/2021/09/15/023800)
+* [推荐开随机的练习曲](https://the-safari.com/2236)

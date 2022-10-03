@@ -75,6 +75,8 @@ params:
 
   valine:
     enable: true
+    appId: "rcGPXL6Wa8yyD7nLZz71otCu-gzGzoHsz"
+    appKey: "VAMTIys7DX3T3QexQ7OUdYoU"
     avatar: "wavatar"
     placeholder: "说点什么吧..."
     meta: ["nick"]

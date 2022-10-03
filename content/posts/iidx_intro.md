@@ -26,24 +26,19 @@ cover:
     caption: ""
 ---
 ### 关于博主
-> 阿猫-InvXp（IIDX-ID：A.MAO）SP八段
->
-> 接触音乐游戏很早（DDR1），20年左右经验（没一个打得好的）
-> 
-> 2013年入坑IIDX，当时是Tricoro20代
-> 
-> 断断续续持续玩了一年左右，目前又在2022年捡了起来
+```
+阿猫-InvXp（IIDX-ID：A.MAO）SP八段
+接触音乐游戏很早（DDR1），20年左右经验（没一个打得好的）
+2013年入坑IIDX，当时是Tricoro20代
+断断续续持续玩了一年左右，目前又在2022年捡了起来
+```
 
 ### beatmaniaIIDX是啥
-> 维基百科[传送门](https://zh.moegirl.org.cn/Beatmania_IIDX)
-> 
-> 下落式音乐游戏鼻祖，beatmania初代始于1997年，1999年正式推出beatmaniaIIDX。 
-> 
-> 游戏每隔10-12月更新一次版本，目前版本为CastHour29代。 
-> 
-> 本博客攻略大多来自[The-Safari](https://w.atwiki.jp/otogeshiyouze/)并附加了一些个人的理解
->
-> 顺便推荐个不错的IIDX网站[音游进阶教程](https://w.atwiki.jp/otogeshiyouze/)
+```
+下落式音乐游戏鼻祖，beatmania初代始于1997年，1999年正式推出beatmaniaIIDX。 
+游戏每隔10-12月更新一次版本，目前版本为CastHour29代。 
+博客攻略大多来自日服The-Safari网站并附加了一些个人的理解
+```
 
 ### 进入正题
 1. 入门必读之一：[初学者必读]()
@@ -59,6 +54,8 @@ cover:
 ### 其他笔记和闲聊：[传送门]()
 
 ### 其他链接
+* [IIDX维基百科](https://zh.moegirl.org.cn/Beatmania_IIDX)
+* [The-Safari](http://the-safari.com/)
 * [DP成长日记](https://silent.hatenadiary.com/)
 * [DP难易度查询](https://zasa.sakura.ne.jp/dp/rank.php)
 * [SP难易度查询☆11](https://w.atwiki.jp/bemani2sp11/)
@@ -67,4 +64,4 @@ cover:
 * [beatmaniaIIDX-SP攻略](https://w.atwiki.jp/bemani2sp/)
 * [beatmaniaIIDX-DP攻略](https://w.atwiki.jp/bemani2dp/)
 * [谱面查询](https://textage.cc/)
-
+* [音游进阶教程](https://w.atwiki.jp/otogeshiyouze/)

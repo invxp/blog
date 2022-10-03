@@ -1,11 +1,11 @@
 ---
-title: "Iidx_4"
-date: 2022-10-03T01:43:59+08:00
+title: "[beatmaniaIIDX攻略]4.学习读谱"
+date: 2022-09-28T16:55:50+08:00
 
 tags: [""]
 
 author: "阿猫"
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
@@ -19,16 +19,16 @@ ShowPostNavLinks: true
 
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 
 cover:
-    image: "<image path/url>"
-    alt: "<alt text>"
-    caption: "<text>"
+    image: ""
+    alt: ""
+    caption: ""
 ---
-##学会读谱
-不是你手速不够快，而是你大脑不认识
+### 学会读谱
 
-##参考文章
+<strong><font style="bolfd" color="red">不是你手速不够快，而是你大脑不认识</font></strong>
+
+### 参考文章
 * [横向读谱和纵向读谱](https://the-safari.com/2539)
 * [提升谱面的认识能力](https://the-safari.com/2543)

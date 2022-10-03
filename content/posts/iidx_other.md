@@ -1,11 +1,11 @@
 ---
-title: "Iidx_other"
-date: 2022-10-03T02:59:26+08:00
+title: "[beatmaniaIIDX攻略]9.其他及闲聊"
+date: 2022-09-28T16:55:55+08:00
 
 tags: [""]
 
 author: "阿猫"
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
@@ -19,14 +19,13 @@ ShowPostNavLinks: true
 
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 
 cover:
-    image: "<image path/url>"
-    alt: "<alt text>"
-    caption: "<text>"
+    image: ""
+    alt: ""
+    caption: ""
 ---
-##闲聊
+### 闲聊
 
-##参考文章
+### 参考文章
 * [提升判定](https://the-safari.com/2279)

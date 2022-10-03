@@ -55,13 +55,13 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   hidemeta: false
   hideSummary: false
-  showtoc: true
-  tocopen: true
+  showtoc: false
+  tocopen: false
 
   assets:
     favicon: "/blog/blog.ico"
@@ -125,4 +125,7 @@ markup:
     guessSyntax: true
     lineNos: true
     style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
 

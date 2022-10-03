@@ -5,7 +5,7 @@ date: {{ .Date }}
 tags: [""]
 
 author: "阿猫"
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
@@ -19,10 +19,9 @@ ShowPostNavLinks: true
 
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 
 cover:
-    image: "<image path/url>"
-    alt: "<alt text>"
-    caption: "<text>"
+    image: ""
+    alt: ""
+    caption: ""
 ---

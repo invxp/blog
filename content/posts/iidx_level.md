@@ -1,11 +1,11 @@
 ---
-title: "Iidx_7"
-date: 2022-10-03T01:44:11+08:00
+title: "[beatmaniaIIDX攻略]8.段位认定攻略"
+date: 2022-09-28T16:55:54+08:00
 
 tags: [""]
 
 author: "阿猫"
-showToc: true
+showToc: false
 TocOpen: false
 hidemeta: false
 comments: true
@@ -19,16 +19,15 @@ ShowPostNavLinks: true
 
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 
 cover:
-    image: "<image path/url>"
-    alt: "<alt text>"
-    caption: "<text>"
+    image: ""
+    alt: ""
+    caption: ""
 ---
-##不要太看重段位认定
+### 不要太看重段位认定
 
-##参考文章
+### 参考文章
 * [SP六-七段攻略](https://w.atwiki.jp/otogeshiyouze/pages/108.html)
 * [SP八段攻略](https://w.atwiki.jp/otogeshiyouze/pages/103.html)
 * [SP九段攻略](https://w.atwiki.jp/otogeshiyouze/pages/30.html)

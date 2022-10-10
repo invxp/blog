@@ -50,7 +50,7 @@ params:
   defaultTheme: light # dark, light
   disableThemeToggle: false
   comments: true
-   
+
   ShowReadingTime: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
@@ -130,4 +130,3 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-

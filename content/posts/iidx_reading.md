@@ -32,3 +32,4 @@ cover:
 ### 参考文章
 * [横向读谱和纵向读谱](https://the-safari.com/2539)
 * [提升谱面的认识能力](https://the-safari.com/2543)
+* [纵连+拍砖技巧](https://the-safari.com/2532)

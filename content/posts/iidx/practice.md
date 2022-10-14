@@ -191,6 +191,9 @@ EX-HARD也不需要常开，因为开了之后太紧张了
 
 ---
 
+### 进入下一篇
+[音游经验和闲聊](/blog/posts/iidx/exp/index.html)
+
 ### 参考文章
 * [盘曲练习](https://the-safari.com/2555)
 * [如何提升实力](https://the-safari.com/2559)
